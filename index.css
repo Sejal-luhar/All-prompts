@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right bottom,rgb(245, 209, 215),rgb(211, 211, 240)) ;
+    padding: 20px;
+    font-family: helvetica;
+}
+.container{
+   height: 100%;
+   width: 25%;
+   background-color: black;
+   border-radius: 20px;
+   color: white;
+}
+nav{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 0 20px;
+    box-shadow: 0 0 3px rgb(167, 166, 166);
+}
+.profile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+.profile img{
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.image>h2{
+    font-size: 15px;
+}
+.followers>h2{
+    font-size: 18px;
+}
+.followers>p{
+    font-size: 13px;
+}
+.profile-discription{
+    width: 100%;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.profile-discription>small{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(80, 78, 78);
+    border-radius: 10px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.buttons>button{
+    padding: 8px 19px;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.buttons>button:nth-child(1){
+    background-color: rgb(95, 95, 236);
+}
+.highlights{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.highlights img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 3px solid grey;
+}
+.high-img>p{
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.post-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 10px 30px;
+}
+.posts{
+    width: 100%;
+    display: flex;
+}
+.posts>img{
+    width: 33%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+}
